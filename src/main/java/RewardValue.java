@@ -5,7 +5,7 @@ public class RewardValue {
     // Constructor that accepts a cash value
     public RewardValue(double cashValue) {
         this.cashValue = cashValue;
-        this.milesValue = (int) (cashValue * 1000);
+        this.milesValue = (int) (cashValue / 0.0035);
     }
 
     // Constructor that accepts a miles value
